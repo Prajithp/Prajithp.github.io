@@ -48,18 +48,16 @@ background-img: "../img/intro-bg.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-# dynamic-typing: True
-# shuffle: True # Shuffle the lines.
-# loop: True
-# loop-count: False # Set False for infinite loop, or set any number for finite loop.
-# type-speed: 10
-# start-delay: 200
-# delete-delay: 5000
-# lines: # You can add HTML Tags in the Text
-#  - text: "I stoped waiting for the world to give me what I wanted,"
-#  - text: "I started giving it to myself."
-
-# me-img: "/img/jetpacktocat.png"
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Just another Perl hacker"
+me-img: "/img/jetpacktocat.png"
 
 ################
 # Web app mode #
